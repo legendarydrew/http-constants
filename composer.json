@@ -1,5 +1,13 @@
 {
     "name": "legendarydrew/http-constants",
-    "description": "HTTP constants for PHP.",
-    "require": {}
+    "description": "HTTP response codes provided as constants for PHP.",
+	"type": "library",
+    "require": {
+		"php": "^5.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "PZL\\Http\\": "src"
+        }
+    }
 }
