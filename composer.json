@@ -3,7 +3,7 @@
     "description": "HTTP response codes provided as constants for PHP.",
 	"type": "library",
     "require": {
-		"php": "^5.0"
+		"php": "^5"
 	},
     "autoload": {
         "psr-4": {
